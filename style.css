@@ -1,0 +1,108 @@
+body {
+	background-image: linear-gradient(45deg, #84fab0, #8fd3f4);	
+	font-family: Halant;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: white;
+	border-radius: 6px;
+	padding: 20px;
+	width: 300px;
+	margin: 100px auto 10px;
+}
+
+.nav {
+	padding: 0;
+}
+
+.navItems {
+	padding: 0;
+	text-align: center;
+}
+
+.navItem {
+	display: inline-block;
+	background: #80DEEA;
+	border-radius: 5px;
+	padding: 6px 20px;
+	margin: 0 4px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.selected {
+	background: #00ACC1;
+}
+
+.navItem a {
+	text-decoration: none;
+	color: white;
+}
+
+input {
+	font-size: 14px;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #80DEEA;
+	border-radius: 3px;
+}
+
+.channels {
+	padding: 0;
+}
+
+.channel {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.channel:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.avatar {
+	width: 60px;
+	border-radius: 50%;
+	float: left;
+}
+
+.details {
+	float: left;
+	margin-left: 10px;
+}
+
+.channelName {
+	margin: 0; 
+}
+
+.channelName  a {
+	text-decoration: none;
+	color: #00ACC1;
+}
+
+.online, .offline {
+	margin: 0; 
+	color: #00ACC1
+}
+
+.offline {
+	opacity: .3;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	opacity: .35;
+}
+
+
+
+
+
+
+
+
+
